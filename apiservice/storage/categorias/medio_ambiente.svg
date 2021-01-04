@@ -1,0 +1,21 @@
+<svg id="medio_ambiente" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_56" data-name="Elipse 56" cx="20" cy="20" r="20" transform="translate(293)"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_48" data-name="Elipse 48" cx="20" cy="20" r="20" fill="#57457f"/>
+  <g id="Grupo_825" data-name="Grupo 825" transform="translate(-293)">
+    <g id="Grupo_824" data-name="Grupo 824" clip-path="url(#clip-path)">
+      <g id="Grupo_823" data-name="Grupo 823" transform="matrix(0.995, -0.105, 0.105, 0.995, 296.532, 16.613)">
+        <g id="Grupo_821" data-name="Grupo 821" transform="translate(0 0)">
+          <path id="Trazado_1191" data-name="Trazado 1191" d="M302.236,21.1c-.128-.32-.237-.575,0-.831a.553.553,0,0,1,.557-.164h0a.572.572,0,0,1,.247.146,13.369,13.369,0,0,1,2.658,4.338c1.818-8.5-9.7-9.773-9.7-9.773-1.891,8.668,4.585,10.8,7.663,11.316A22.941,22.941,0,0,0,302.236,21.1Z" transform="translate(-295.658 -14.82)" fill="#b3fffd"/>
+        </g>
+        <g id="Grupo_822" data-name="Grupo 822" transform="translate(13.885 2.196)">
+          <path id="Trazado_1192" data-name="Trazado 1192" d="M310.86,24.847a17.414,17.414,0,0,1,7.188-3.142.516.516,0,0,1,.237.018.536.536,0,0,1,.393.475c.037.384-.237.521-.585.685a24.725,24.725,0,0,0-6.138,4.274c3.781,1.617,13.846,4.521,18.111-7.891C330.077,19.266,314.459,12.014,310.86,24.847Z" transform="translate(-310.86 -17.225)" fill="#b3fffd"/>
+        </g>
+      </g>
+      <path id="Trazado_1193" data-name="Trazado 1193" d="M315.935,23.55a14.493,14.493,0,0,0-9.261,6.138,11.51,11.51,0,0,0-2.914-7.5l-.009-.009a20.911,20.911,0,0,1-.988,17.04c-.146.374,3.45,1.458,3.477,1.084-1.729-12.248,9.841-16.717,9.7-16.754Z" transform="matrix(0.995, -0.105, 0.105, 0.995, 0.225, 32.213)" fill="#b3fffd"/>
+    </g>
+  </g>
+</svg>

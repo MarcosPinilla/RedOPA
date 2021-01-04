@@ -1,0 +1,16 @@
+<svg id="artes_escenicas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_57" data-name="Elipse 57" cx="20" cy="20" r="20" transform="translate(241)"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_49" data-name="Elipse 49" cx="20" cy="20" r="20" fill="#57457f"/>
+  <g id="Grupo_828" data-name="Grupo 828" transform="translate(-241)">
+    <g id="Grupo_827" data-name="Grupo 827" clip-path="url(#clip-path)">
+      <path id="Trazado_1194" data-name="Trazado 1194" d="M277.1,17.3a27.1,27.1,0,0,1-19.72-4.13h0l-2.73,13.05a10.076,10.076,0,0,0,4.28,10.45h0a10.069,10.069,0,0,0,7.32,1.53h0a10.084,10.084,0,0,0,8.12-7.86L277.1,17.3Zm-13.57,7.98c-1.87-3.44-5.17-.78-5.17-.78C262.63,18.69,263.53,25.28,263.53,25.28Zm-5.97,3.02s7.18,5.77,13.56,2.23C271.13,30.53,262.14,43.6,257.56,28.3Zm9.19-2.34s3.48-5.68,5.05,1.36C271.8,27.32,269.84,23.55,266.75,25.96Z" fill="#b3fffd"/>
+      <g id="Grupo_826" data-name="Grupo 826">
+        <path id="Trazado_1195" data-name="Trazado 1195" d="M260.07,38.54a10.157,10.157,0,0,1-2.68-1.28h0a10.427,10.427,0,0,1-2.95-2.97,7.337,7.337,0,0,0-2.87,2.19,13.8,13.8,0,0,1,1.8-4.31,10.487,10.487,0,0,1-.43-5.78l1.73-8.28a27.022,27.022,0,0,1-11.64.28l2.5,13.09a10.059,10.059,0,0,0,7.97,8h0A10.031,10.031,0,0,0,260.07,38.54Zm-12.34-13s3.25,2.72,5.19-.68C252.92,24.85,251.89,31.43,247.73,25.54Z" fill="#b3fffd"/>
+      </g>
+    </g>
+  </g>
+</svg>

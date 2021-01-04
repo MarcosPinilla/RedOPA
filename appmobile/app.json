@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Red OPA",
+    "slug": "red-opa",
+    "privacy": "public",
+    "primaryColor": "#57457F",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.opa.redopa",
+      "buildNumber": "1.0.2",
+      "icon": "./assets/ios-icon.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Red OPA to use the camera to create a profile picture for the user",
+        "NSPhotoLibraryUsageDescription": "Allow Red OPA to access the user's photo library to create a profile picture",
+        "NSPhotoLibraryAddUsageDescription": "Allow Red OPA to add a new image file to create a profile picture for the user"
+      }
+    },
+    "android": {
+      "package": "com.opa.appmobile",
+      "versionCode": 5
+    },
+    "description": "Aplicación del Centro OPA para prevención de conductas suicidas en establecimentos de educación media de Chile. Para mayor información, visite opa.cl"
+  }
+}

@@ -1,0 +1,93 @@
+'use strict';
+const bcrypt = require('bcrypt');
+
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert('Usuarios', [
+      {
+        email: 'f.acuna08@ufromail.cl',
+        password: bcrypt.hashSync('123456', 10),
+        nombres: 'Felipe Sebastián',
+        apellidos: 'Acuña Figueroa',
+        telefono: '0000000',
+        rut: '193898335',
+        nacimiento: new Date(),
+        estado: 1,
+        foto_url: '/imagenes/opa_icon.png',
+        institucion_id: 1,
+        permiso_id: 2,
+        genero_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        email: 'm.pinilla03@ufromail.cl',
+        password: bcrypt.hashSync('123456', 10),
+        nombres: 'Marcos Alexander',
+        apellidos: 'Pinilla Martínez',
+        telefono: '00000000',
+        rut: '194235690',
+        nacimiento: new Date(),
+        estado: 1,
+        foto_url: '/imagenes/opa_icon.png',
+        institucion_id: 1,
+        permiso_id: 2,
+        genero_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        email: 'jorge.hochstetter@ufrontera.cl',
+        password: bcrypt.hashSync('123456', 10),
+        nombres: 'Jorge Alberto',
+        apellidos: 'Hochstetter Diez',
+        telefono: '00000000',
+        rut: '108537602',
+        nacimiento: new Date(),
+        estado: 1,
+        foto_url: '/imagenes/opa_icon.png',
+        institucion_id: 1,
+        permiso_id: 2,
+        genero_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        email: 'tamara.otzen@ufrontera.cl',
+        password: bcrypt.hashSync('123456', 10),
+        nombres: 'Tamara Francisca',
+        apellidos: 'Otzen Hernández',
+        telefono: '00000000',
+        rut: '108537602',
+        nacimiento: new Date(),
+        estado: 1,
+        foto_url: '/imagenes/opa_icon.png',
+        institucion_id: 1,
+        permiso_id: 2,
+        genero_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        email: 'francisca.villagran.s@gmail.com',
+        password: bcrypt.hashSync('123456', 10),
+        nombres: 'Francisca Marion',
+        apellidos: 'Villagrán Silva',
+        telefono: '00000000',
+        rut: '108537602',
+        nacimiento: new Date(),
+        estado: 1,
+        foto_url: '/imagenes/opa_icon.png',
+        institucion_id: 1,
+        permiso_id: 2,
+        genero_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+    ]);
+  },
+
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.bulkDelete('Usuarios', null, {});
+  }
+};
